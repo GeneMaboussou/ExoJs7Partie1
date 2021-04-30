@@ -1,7 +1,7 @@
 document.getElementById("submit");submit.addEventListener('click',
-function birth(){
-    var birth = document.getElementById('birth').value;
-    var result = (2021 - birth);
+function age(){
+    var age = document.getElementById('age').value;
+    var result = (age);
     if(result > 18)
         alert ('Vous êtes majeur');
     else{
