@@ -1,10 +1,12 @@
-document.getElementById("submit");submit.addEventListener('click',
-function age(){
+
+function Result(){
     var age = document.getElementById('age').value;
-    var result = (age);
-    if(result > 18)
+    if(age >= 18 && age < 110)
         alert ('Vous êtes majeur');
-    else{
-        alerte ('Vous êtes mineur');
+    else if ( age >= 1 && age < 18){
+        alert ('Vous êtes mineur');
     }
-});
+    else {
+        alert("Mettez une valeur comprise entre 1 et 110")
+    }
+};
